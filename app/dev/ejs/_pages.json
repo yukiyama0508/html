@@ -1,0 +1,22 @@
+{
+  "default": {
+    "pageclass": "page_home",
+    "title": "これはタイトルです",
+    "keywords": "これはキーワードです",
+    "description": "これはディスクリプションです"
+  },
+
+  "home": {
+    "pageclass": "page_home",
+    "title": "これはタイトルです",
+    "keywords": "これはキーワードです",
+    "description": "これはディスクリプションです"
+  },
+
+  "page": {
+    "pageclass": "page_home",
+    "title": "これはタイトルです",
+    "keywords": "これはキーワードです",
+    "description": "これはディスクリプションです"
+  }
+}

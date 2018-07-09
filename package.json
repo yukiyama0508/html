@@ -1,0 +1,28 @@
+{
+  "name": "yamayuki",
+  "version": "1.0.0",
+  "description": "昔の開発環境",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "browser-sync": "^2.18.12",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-ejs": "^3.0.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-notify": "^3.0.0",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-prettify": "^0.5.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}

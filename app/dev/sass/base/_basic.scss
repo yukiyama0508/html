@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100%;
+}
+
+body {
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-feature-settings: "palt" 1;
+  @include rem(12);
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: .1em;
+  @media screen and (min-width: $size_max) {
+    @include rem(15);
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pc {
+  display: none;
+  @media screen and (min-width: $size_max) {
+    display: block;
+  }
+}
+
+.sp {
+  display: block;
+  @media screen and (min-width: $size_max) {
+    display: none;
+  }
+}
